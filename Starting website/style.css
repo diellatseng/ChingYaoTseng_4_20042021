@@ -1,5 +1,10 @@
 :root {
     --font-secondary: #6f6f6f;
+    --btn-bg: #965436;
+    --btn-bg-hover: #f3976c;
+    --btn-text: #FFFFFF;
+    --btn-text-hover: #382218;
+    --primary-bg: #965436;
   }
 
 html {
@@ -18,7 +23,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none;
+
 }
 
 a:hover {
@@ -116,7 +121,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a { /*this is used*/
-    color: red;
+    color: rgba(255, 255, 255, .6);;
 }
 
 .d-bloc .a-btn:hover,
@@ -684,16 +689,18 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333;
@@ -754,21 +761,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: var(--primary-bg);
 }
 
 .tc-white {
-    color: #F3976C;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF;
+    background: var(--btn-bg);
+    color: var(--btn-text);
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956;
-    color: #FFFFFF;
+    background: var(--btn-bg-hover);
+    color: var(--btn-text-hover);
 }
 
 .ltc-white {
@@ -780,11 +787,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C;
+    color: var(--btn-bg);
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956;
+    color: var(--btn-bg-hover);
 }
 
 .icon-dark-slate-blue {
@@ -1011,12 +1018,12 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-}
+} */
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
@@ -1030,7 +1037,7 @@ blockquote {
 }
 
 blockquote p {
-    font-size: 2rem;
+    font-size: 1.375rem;
     font-weight: 500;
     font-style: italic;
 }
@@ -1047,4 +1054,14 @@ blockquote p::after {
     blockquote {
         margin: 0 40px;
     }
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
 }
