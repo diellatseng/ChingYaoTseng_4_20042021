@@ -5,6 +5,7 @@
     --btn-text: #FFFFFF;
     --btn-text-hover: #382218;
     --primary-bg: #965436;
+    --secondary-text: #ffd1bb;
   }
 
 html {
@@ -693,6 +694,9 @@ p {
     justify-content: space-evenly;
     margin: 1rem auto;
 }
+.social a:hover {
+    text-decoration: none;
+}
 
 h2 {
     font-size: 1.375rem;
@@ -743,7 +747,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(116, 105, 69, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -765,7 +769,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF;
+    color: var(--secondary-text);
 }
 
 .btn-atomic-tangerine {
@@ -1064,4 +1068,13 @@ blockquote p::after {
 
 .column {
     flex-direction: column;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: var(--secondary-text);
+    text-decoration: underline;
 }
