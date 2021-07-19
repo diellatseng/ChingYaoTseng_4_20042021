@@ -24,7 +24,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-
 }
 
 a:hover {
@@ -447,10 +446,6 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
-}
-
-button {
-    outline: none;
 }
 
 .btn-rd {
@@ -1086,5 +1081,14 @@ footer a {
 
 footer a:hover {
     color: var(--secondary-text);
-    text-decoration: underline;
 }
+
+/* .skip-to {
+    display: hidden;
+    transition: 200ms ease;
+}
+
+.skip-to:focus {
+    display: block;
+} */
+
