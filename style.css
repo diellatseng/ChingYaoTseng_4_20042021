@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
+    overflow: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -1083,12 +1083,20 @@ footer a:hover {
     color: var(--secondary-text);
 }
 
-/* .skip-to {
-    display: hidden;
+footer a:focus {
+    color: var(--secondary-text);
+    text-decoration: none;
+    outline-offset: 3px;
+} 
+
+.skip-to {
+    padding: 2rem;
+    transform: translateY(-3rem);
     transition: 200ms ease;
+    border-radius: 0 0 5px 5px;
 }
 
 .skip-to:focus {
-    display: block;
-} */
+    transform: translateY(0);
+}
 
