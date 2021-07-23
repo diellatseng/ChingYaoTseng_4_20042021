@@ -1040,6 +1040,13 @@ h4 {
     }
 }
 
+nav li:last-child::after {
+    content: " >";
+    position: absolute;
+    right: 0;
+    top: 28%;
+}
+
 blockquote {
     margin: 10px 0;
     border-left: none;
@@ -1086,8 +1093,12 @@ footer a:hover {
 footer a:focus {
     color: var(--secondary-text);
     text-decoration: none;
-    outline-offset: 3px;
-} 
+    outline-offset: 2px;
+}
+
+footer .fa {
+    font-size: 2rem;
+}
 
 .skip-to {
     padding: 2rem;
