@@ -1085,6 +1085,10 @@ blockquote p::after {
     }
 }
 
+figcaption {
+    color: var(--font-secondary);
+}
+
 .flex-center {
     display: flex;
     align-items: center;
