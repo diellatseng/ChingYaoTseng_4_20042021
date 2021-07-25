@@ -654,6 +654,11 @@ h4 {
     color: var(--btn-text-hover);
 }
 
+.btn-atomic-tangerine:focus {
+    background: var(--btn-bg-hover);
+    color: var(--btn-text-hover);
+}
+
 .ltc-white {
     color: #FFFFFF;
 }
