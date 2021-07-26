@@ -1,0 +1,24 @@
+{
+  "name": "chingyaotseng_4_20042021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webp.js",
+  "dependencies": {
+    "imagemin": "^8.0.0",
+    "imagemin-webp": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diellatseng/ChingYaoTseng_4_20042021.git"
+  },
+  "author": "Diella Tseng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diellatseng/ChingYaoTseng_4_20042021/issues"
+  },
+  "homepage": "https://github.com/diellatseng/ChingYaoTseng_4_20042021#readme"
+}
