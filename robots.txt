@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: https://diellatseng.github.io/ChingYaoTseng_4_20042021/contact.html
+Disallow: contact.html
