@@ -1,6 +1,7 @@
 # Project 4 Optimisez un site web existant
 Parcours Développeur web d'OpenClassrooms
 
+![page_screenshot](https://user-images.githubusercontent.com/37021876/152555483-ff28ca4d-5d83-40f6-ab94-5d8a2fd8b098.PNG)
 ![image](https://user-images.githubusercontent.com/37021876/145800939-5d697ddc-16a8-4b2b-99ee-228e6f692f23.png)
 ![image](https://user-images.githubusercontent.com/37021876/145800844-0175a9e6-7462-460c-a08c-115e197c9b73.png)
 
